@@ -1,11 +1,9 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import cors from 'cors'
-
-const PORT = 5050;
-
 import usersRoute from  './routes/users.js'
 import loginRoute from  './routes/login.js'
+const PORT = 5050;
 
 const app = express();
 

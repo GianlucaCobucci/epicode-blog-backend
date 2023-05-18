@@ -6,8 +6,8 @@ POST http://localhost:5050/users HTTP/1.1
 content-type: application/json
 
 {
-    "userName": "gianluca",
-    "email": "gianlucacobucci330@gmail.com",
+    "userName": "hjgjgj",
+    "email": "hgjhg@gmail.com",
     "password": "hello"
 }
 
