@@ -1,0 +1,9 @@
+POST http://localhost:5050/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "jwt@jwtgmail.com",
+    "password": "jwt123456"
+}
+
+#######

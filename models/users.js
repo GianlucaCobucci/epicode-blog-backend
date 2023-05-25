@@ -13,6 +13,11 @@ const UserSchema = new mongoose.Schema({
     password: {
         type:String,
         required: true,
+    },
+    img : {
+        type: String,
+        required: false,
+        default: "https://picsum.photos/1920/1080"
     }
 })
 

@@ -6,9 +6,10 @@ POST http://localhost:5050/users HTTP/1.1
 content-type: application/json
 
 {
-    "userName": "hjgjgj",
-    "email": "hgjhg@gmail.com",
-    "password": "hello"
+    "userName": "aaa",
+    "email": "aaa@aaagmail.com",
+    "password": "aaabbb111", 
+    "img": "https://picsum.photos/1920/1080"
 }
 
 ######
@@ -20,3 +21,10 @@ content-type: application/json
     "email": "gianlucacobucci330@gmail.com",
     "password": "hello"
 }
+
+
+#####
+
+DELETE  http://localhost:5050/users/646f731048e047fc1704dfe8 HTTP/1.1
+
+#####

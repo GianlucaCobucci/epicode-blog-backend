@@ -1,0 +1,33 @@
+GET http://localhost:5050/posts 
+
+######
+
+GET http://localhost:5050/posts/bytitle/Post numero due
+
+######
+
+POST http://localhost:5050/posts HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Post numero venti",
+  "img": "https://picsum.photos/1920/1080",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+  "author": "Gianluca",
+  "rate": 1
+}
+
+######
+
+PATCH http://localhost:5050/posts/646ccb18eea6f997248e9a39 HTTP/1.1
+content-type: application/json
+
+{
+  "content": "post modificato correttamente"
+}
+
+######
+
+DELETE  http://localhost:5050/posts/646ccb23eea6f997248e9a3f HTTP/1.1
+
+
